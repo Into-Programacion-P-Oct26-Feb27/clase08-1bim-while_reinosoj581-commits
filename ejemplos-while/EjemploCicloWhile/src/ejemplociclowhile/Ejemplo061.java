@@ -31,3 +31,7 @@ public class Ejemplo061 {
         }
     }
 }
+/*
+Hicimos un ciclo repetivio, mientras el usuario ponga 100 el ciclo se va a
+repetir varias veces, cuando usuario ponga -100 salga de ciclo 
+*/
