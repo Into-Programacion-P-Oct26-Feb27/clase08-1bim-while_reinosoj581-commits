@@ -22,10 +22,10 @@ public class Ejemplo062 {
         while (bandera == true) { //true == true 
             System.out.println("Estoy en ciclo"); //Estoy en el ciclo 
 
-            int salir;
+            String salir;
             System.out.println("Desea salir del ciclo, ingrese si.");
-            salir = entrada.nextInt(); //100
-            if (salir.equals("si")) { 
+            salir = entrada.nextLine(); //100
+            if (salir.equals("si")) {
                 bandera = false;
             }
         }
